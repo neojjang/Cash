@@ -6,6 +6,8 @@
 	<string name="about_text">Copyright © 2011 Richard Ricciardelli. All Rights Reserved.</string>
 	<string name="preferences_title">Preferences</string>
 	<string name="vibration_title">Vibration</string>
-	<string name="vibration_summary_on">Vibration activated</string>
-	<string name="vibration_summary_off">Vibration deactivated</string>
+	<string name="vibration_summary_on">Vibration on</string>
+	<string name="vibration_summary_off">Vibration off</string>
+	<string name="cash_title">Your cash:</string>
+	<string name="last_buy">Your last buy:</string>
 </resources>
