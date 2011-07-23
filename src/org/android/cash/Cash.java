@@ -1,7 +1,5 @@
 package org.android.cash;
 
-import org.android.cash.R;
-
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
