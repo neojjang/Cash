@@ -1,4 +1,6 @@
-package org.android.cash;
+package org.android.cash.app;
+
+import org.android.cash.R;
 
 import android.app.Activity;
 import android.os.Bundle;
