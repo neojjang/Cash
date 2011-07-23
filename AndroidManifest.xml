@@ -11,7 +11,8 @@
 				<category android:name="android.intent.category.LAUNCHER" />
 			</intent-filter>
 		</activity>
-
+		<activity android:name=".About" android:theme="@android:style/Theme.Dialog"
+			android:label="@string/about_title" />
 		<activity android:name=".Preferences" android:label="@string/preferences_title" />
 	</application>
 </manifest>
