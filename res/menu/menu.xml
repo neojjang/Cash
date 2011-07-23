@@ -3,6 +3,9 @@
 	<item android:title="@string/about_title"
 		android:alphabeticShortcut="a" android:id="@+id/about"
 		android:icon="@android:drawable/ic_menu_info_details" />
+	<item android:title="@string/new_account"
+		android:alphabeticShortcut="c" android:id="@+id/account"
+		android:icon="@android:drawable/ic_menu_add" />
 	<item android:title="@string/preferences_title"
 		android:alphabeticShortcut="p" android:id="@+id/preferences"
 		android:icon="@android:drawable/ic_menu_preferences" />
