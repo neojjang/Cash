@@ -15,6 +15,7 @@ public class Cash extends Activity {
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.main);
+		// TODO Create method cashQuery() to set current cash in activity.
 	}
 
 	@Override
