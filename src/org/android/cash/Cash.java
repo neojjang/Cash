@@ -27,6 +27,9 @@ public class Cash extends Activity {
 	@Override
 	public boolean onOptionsItemSelected(MenuItem item) {
 		switch (item.getItemId()) {
+		case R.id.about:
+			setActivity(About.class);
+			return true;
 		case R.id.preferences:
 			setActivity(Preferences.class);
 			return true;
