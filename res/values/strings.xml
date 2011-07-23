@@ -3,7 +3,7 @@
 	<string name="hello">Welcome to Cash!</string>
 	<string name="app_name">Cash</string>
 	<string name="about_title">About</string>
-	<string name="about_text">This is the about text</string>
+	<string name="about_text">Copyright © 2011 Richard Ricciardelli. All Rights Reserved.</string>
 	<string name="preferences_title">Preferences</string>
 	<string name="vibration_title">Vibration</string>
 	<string name="vibration_summary_on">Vibration activated</string>
