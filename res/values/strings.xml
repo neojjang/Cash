@@ -10,4 +10,9 @@
 	<string name="vibration_summary_off">Vibration off</string>
 	<string name="cash_title">Your cash:</string>
 	<string name="last_buy">Your last buy:</string>
+	<string name="account_title">Accounts</string>
+	<string name="new_account">New account</string>
+	<string name="bank_account">Bank account</string>
+	<string name="cash_account">Cash account</string>
+	<string name="tickets_account">Tickets account</string>
 </resources>
