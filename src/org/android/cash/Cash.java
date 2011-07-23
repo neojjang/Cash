@@ -1,7 +1,6 @@
 package org.android.cash;
 
 import org.android.cash.R;
-import org.android.cash.info.Preferences;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -10,7 +9,7 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 
-public class CashActivity extends Activity {
+public class Cash extends Activity {
 	/** Called when the activity is first created. */
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
