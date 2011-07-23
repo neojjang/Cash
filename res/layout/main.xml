@@ -6,4 +6,24 @@
 		android:layout_height="wrap_content" android:text="@string/hello"
 		android:textAppearance="@android:style/TextAppearance.Large"
 		android:padding="10dip" />
+
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="@string/cash_title"
+		android:textAppearance="@android:style/TextAppearance.Large"
+		android:padding="20dip" />
+
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:id="@+id/current_cash"
+		android:textAppearance="@android:style/TextAppearance.Large"
+		android:textSize="30dip" android:textStyle="bold" android:gravity="center" />
+
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="@string/last_buy"
+		android:textAppearance="@android:style/TextAppearance.Large"
+		android:padding="20dip" />
+
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:id="@+id/last_buy"
+		android:textAppearance="@android:style/TextAppearance.Large"
+		android:textSize="30dip" android:textStyle="bold" android:gravity="center" />
 </LinearLayout>
