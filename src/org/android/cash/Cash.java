@@ -36,11 +36,14 @@ public class Cash extends Activity {
 	}
 
 	private void setActivity(Class<?> c) {
-		if (Preferences.getVibration(this)) {
-			Vibrator v = (Vibrator) getSystemService(VIBRATOR_SERVICE);
-			v.vibrate(VIBRATION_INTENT);
-		}
+		if (Preferences.getVibration(this))
+			setVibrator(VIBRATION_INTENT);
 		Intent i = new Intent(this, c);
 		startActivity(i);
+	}
+
+	private void setVibrator(int milliseconds) {
+		Vibrator v = (Vibrator) getSystemService(VIBRATOR_SERVICE);
+		v.vibrate(milliseconds);
 	}
 }
