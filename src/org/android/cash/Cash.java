@@ -1,8 +1,10 @@
 package org.android.cash;
 
+import static org.android.cash.Constants.VIBRATION_INTENT;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Vibrator;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -26,11 +28,19 @@ public class Cash extends Activity {
 	public boolean onOptionsItemSelected(MenuItem item) {
 		switch (item.getItemId()) {
 		case R.id.preferences:
-			Intent intent = new Intent(this, Preferences.class);
-			startActivity(intent);
+			setActivity(Preferences.class);
 			return true;
 		default:
 			return super.onOptionsItemSelected(item);
 		}
+	}
+
+	private void setActivity(Class<?> c) {
+		if (Preferences.getVibration(this)) {
+			Vibrator v = (Vibrator) getSystemService(VIBRATOR_SERVICE);
+			v.vibrate(VIBRATION_INTENT);
+		}
+		Intent i = new Intent(this, c);
+		startActivity(i);
 	}
 }
