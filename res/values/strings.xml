@@ -3,7 +3,22 @@
 	<string name="hello">Welcome to Cash!</string>
 	<string name="app_name">Cash</string>
 	<string name="about_title">About</string>
-	<string name="about_text">Copyright © 2011 Richard Ricciardelli. All Rights Reserved.</string>
+	<string name="about_text">Cash for Android.
+		\n\nCopyright (C) 2011 Richard Ricciardelli.
+		
+		\n\nThis program is free software: you can redistribute it and/or modify
+		it under the terms of the GNU General Public License as published by
+		the Free Software Foundation, either version 3 of the License, or
+		(at your option) any later version.
+
+		\n\nThis program is distributed in the hope that it will be useful,
+		but WITHOUT ANY WARRANTY; without even the implied warranty of
+		MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+		GNU General Public License for more details.
+
+		\n\nYou should have received a copy of the GNU General Public License
+		along with this program. If not, see http://www.gnu.org/licenses/.
+	</string>
 	<string name="preferences_title">Preferences</string>
 	<string name="vibration_title">Vibration</string>
 	<string name="vibration_summary_on">Vibration on</string>
