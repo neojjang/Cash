@@ -15,7 +15,9 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package org.android.app;
+package org.android.cash.app;
+
+import org.android.cash.R;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -24,6 +26,6 @@ public class Accounts extends Activity {
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		// setContentView(R.layout.accounts);
+		setContentView(R.layout.accounts);
 	}
 }

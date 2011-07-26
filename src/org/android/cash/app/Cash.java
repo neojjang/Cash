@@ -15,9 +15,14 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package org.android.cash;
+package org.android.cash.app;
 
 import static org.android.cash.Constants.VIBRATION_INTENT;
+
+import org.android.cash.About;
+import org.android.cash.Preferences;
+import org.android.cash.R;
+
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -47,6 +52,9 @@ public class Cash extends Activity {
 		switch (item.getItemId()) {
 		case R.id.about:
 			setActivity(About.class);
+			return true;
+		case R.id.account:
+			setActivity(Accounts.class);
 			return true;
 		case R.id.preferences:
 			setActivity(Preferences.class);
