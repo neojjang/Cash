@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="@string/account_title" />
+	<EditText android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:hint="@string/account_title_hint"
+		android:id="@+id/title_account" />
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="@string/account_type" />
+	<Spinner android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:id="@+id/type_account" />
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="@string/current_cash" />
+	<EditText android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:hint="@string/cash_none"
+		android:id="@+id/cash_account" />
+</LinearLayout>
