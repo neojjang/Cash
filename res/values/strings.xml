@@ -27,4 +27,8 @@
 	<string name="bank_account">Bank account</string>
 	<string name="cash_account">Cash account</string>
 	<string name="tickets_account">Tickets account</string>
+	<string name="account_title_hint">Account title</string>
+	<string name="account_type">Account type</string>
+	<string name="current_cash">Current cash</string>
+	<string name="cash_none">0.00</string>
 </resources>
