@@ -21,11 +21,21 @@ import org.android.cash.R;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.widget.ArrayAdapter;
+import android.widget.Spinner;
 
 public class Accounts extends Activity {
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.accounts);
+
+		String items[] = getResources().getStringArray(R.array.type);
+		Spinner accounts = (Spinner) findViewById(R.id.type_account);
+
+		ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
+				android.R.layout.simple_spinner_item, items);
+		adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+		accounts.setAdapter(adapter);
 	}
 }
